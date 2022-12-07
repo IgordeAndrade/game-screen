@@ -1,4 +1,4 @@
-package com.example.game_screen
+package com.projectcs50.gamescreen
 
 import io.flutter.embedding.android.FlutterActivity
 

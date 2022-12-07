@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.game_screen">
+    package="com.projectcs50.gamescreen">
    <application
         android:label="game_screen"
         android:name="${applicationName}"
