@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:game_screen/global/widgets/box_spacer.dart';
 
+import 'upload_videos/presentation/upload_videos_page.dart';
+
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
@@ -13,9 +15,15 @@ class HomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () => Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => UploadPage(
+                      theme: theme,
+                    ),
+                  ),
+                ),
               style: theme.elevatedButtonTheme.style,
-              child: const Text('Uploads Page'),
+              child: const Text('Upload Page'),
             ),
             const DSBoxSpacer.small(),
             ElevatedButton(
